@@ -58,8 +58,7 @@ module.exports = eleventyConfig => {
 
 The `svg` element receives two data attributes that you can use for styling:
 
-- `data-heroicon-name="string"`
-- `data-heroicon-style="(outline|solid)"`
+- `data-tablericon-name="string"`
 
 You could add the following to your stylesheets:
 

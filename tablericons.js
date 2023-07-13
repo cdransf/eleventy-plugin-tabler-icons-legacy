@@ -49,13 +49,13 @@ module.exports = function tablericons(eleventyConfig, config = initialConfig) {
     }`;
   }
 
-  eleventyConfig.addShortcode("tablericons", function (name, alt, attrs) {
+  eleventyConfig.addShortcode("tablericon", function (name, alt, attrs) {
     return tablericons(this, name, alt, attrs);
   });
 };
 
 function head(alt, className, iconName, attrs) {
-  let output = ICONS.HEAD[iconName].slice(0, -1); // Open tag
+  let output = ICONS.HEAD.slice(0, -1); // Open tag
   if (!alt) output += ` aria-hidden="true"`;
   if (className) output += ` class="${className}"`;
   output += ` data-tablericon-name="${iconName}"`;
