@@ -5,8 +5,6 @@ const initialConfig = {
   errorOnMissing: false,
 };
 
-const FORBIDDEN_ATTRIBUTES = ["aria-hidden", "aria-label"];
-
 module.exports = function tablericons(eleventyConfig, config = initialConfig) {
   function tablericons(context = this, name, alt) {
     const contents = ICONS[name];
@@ -22,7 +20,7 @@ module.exports = function tablericons(eleventyConfig, config = initialConfig) {
 
     if (!contents) return "";
 
-    return `${head(alt, config.className, name, attributes)}${contents}${
+    return `${head(alt, config.className, name)}${contents}${
       ICONS.TAIL
     }`;
   }
