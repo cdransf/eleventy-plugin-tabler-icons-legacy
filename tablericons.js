@@ -8,7 +8,7 @@ const initialConfig = {
 const FORBIDDEN_ATTRIBUTES = ["aria-hidden", "aria-label"];
 
 module.exports = function tablericons(eleventyConfig, config = initialConfig) {
-  function tablericons(context = this, name, alt, attributes) {
+  function tablericons(context = this, name, alt) {
     const contents = ICONS[name];
     if (!contents) {
       const message = `No tablericons found for name "${name}"`;
@@ -21,28 +21,6 @@ module.exports = function tablericons(eleventyConfig, config = initialConfig) {
     }
 
     if (!contents) return "";
-
-    if (attributes) {
-      for (const attr of FORBIDDEN_ATTRIBUTES) {
-        let isInvalid = false;
-        const invalidMessage = `ARIA attributes are handled automatically with the "alt" argument. Forbidden attribute "${attr}" detected`;
-
-        if (typeof attributes === "string") {
-          isInvalid = attributes.includes(attr);
-        } else {
-          isInvalid = attributes.hasOwnProperty(attr);
-        }
-
-        if (isInvalid) {
-          if (config.errorOnMissing) {
-            throw new Error(invalidMessage);
-          } else {
-            console.warn(invalidMessage + ` in ${context.page.inputPath}`);
-            return "";
-          }
-        }
-      }
-    }
 
     return `${head(alt, config.className, name, attributes)}${contents}${
       ICONS.TAIL

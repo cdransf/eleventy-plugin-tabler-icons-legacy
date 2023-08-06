@@ -27,12 +27,11 @@ This plugin adds the `tablericon` shortcode.
 
 ### `tablericon`
 
-Args: `name: string`, `alt?: string`, `attributes?: object|string`
+Args: `name: string`, `alt?: string`
 
 ```md
 {% tablericon "archive" %}
 {% tablericon "x" "Close menu" %}
-{% tablericon "x" "Close menu" "width=25 x-data='{ open: false }'" %}
 ```
 
 ## Configuration
