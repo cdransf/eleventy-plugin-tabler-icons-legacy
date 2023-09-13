@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-tabler-icons",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Shortcodes to add Tabler icons to your Eleventy projects",
   "main": "tablericons.js",
   "files": [
