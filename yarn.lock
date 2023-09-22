@@ -146,7 +146,7 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
-"@tabler/icons@^2.30.0":
+"@tabler/icons@^2.34.0":
   version "2.34.0"
   resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-2.34.0.tgz#cfa4b762259102cc91f52708253745b6438a5425"
   integrity sha512-65GsJsT4ZBETWcdrNxbsjsbRoZvbVk3CcU2SafaElrzP1wpOeuAn9aELVEbxhdyZyP9dg2SCfgH6iAArJgp7lw==
