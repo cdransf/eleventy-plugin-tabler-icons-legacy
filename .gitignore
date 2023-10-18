@@ -7,3 +7,6 @@ node_modules/
 
 # IDE
 .idea
+
+# system
+.DS_Store
