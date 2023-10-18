@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-tabler-icons",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "Shortcodes to add Tabler icons to your Eleventy projects",
   "main": "tablericons.js",
   "files": [
@@ -18,7 +18,7 @@
     "tabler-icons"
   ],
   "author": {
-    "email": "cory.dransfeldt@gmail.com",
+    "email": "coryd@fastmail.com",
     "name": "Cory Dransfeldt",
     "url": "https://coryd.dev"
   },
