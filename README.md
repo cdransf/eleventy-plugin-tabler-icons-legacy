@@ -1,7 +1,5 @@
 # Eleventy: tabler icons plugin
 
-[![Follow @cory@social.lol](https://img.shields.io/mastodon/follow/109606224363698309?domain=https%3A%2F%2Fsocial.lol&style=for-the-badge&logo=Mastodon&logoColor=white&labelColor=6364FF)](https://social.lol/@cory)
-
 Shortcodes to add [tabler icons](https://tabler-icons.io) to your [Eleventy](https://11ty.dev) projects
 
 ## Get started
