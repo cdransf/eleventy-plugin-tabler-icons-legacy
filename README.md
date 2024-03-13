@@ -2,6 +2,8 @@
 
 Shortcodes to add [tabler icons](https://tabler-icons.io) to your [Eleventy](https://11ty.dev) projects
 
+**ARCHIVED:** see [@cdransf/eleventy-plugin-tabler-icons](https://github.com/cdransf/eleventy-plugin-tabler-icons) for updated outlined icons or [@cdransf/eleventy-tabler-icons-filled](https://github.com/cdransf/eleventy-tabler-icons-filled) for updated filled icons.
+
 ## Get started
 
 Install the package:
